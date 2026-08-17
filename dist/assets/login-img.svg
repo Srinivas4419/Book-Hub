@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0369a1" />
+      <stop offset="100%" stop-color="#075985" />
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="800" fill="url(#bgGrad)" />
+
+  <!-- Atmospheric Circles -->
+  <circle cx="150" cy="200" r="280" fill="url(#glowGrad)" />
+  <circle cx="600" cy="650" r="220" fill="url(#glowGrad)" />
+
+  <!-- Floating Library / Shelf Backdrop -->
+  <g opacity="0.15">
+    <rect x="80" y="100" width="540" height="12" rx="6" fill="#ffffff" />
+    <rect x="80" y="240" width="540" height="12" rx="6" fill="#ffffff" />
+    <rect x="80" y="380" width="540" height="12" rx="6" fill="#ffffff" />
+    <!-- Background Books -->
+    <rect x="110" y="40" width="30" height="60" rx="3" fill="#ffffff" />
+    <rect x="145" y="30" width="35" height="70" rx="3" fill="#ffffff" />
+    <rect x="185" y="50" width="25" height="50" rx="3" fill="#ffffff" />
+    <rect x="420" y="35" width="40" height="65" rx="3" fill="#ffffff" />
+    <rect x="465" y="45" width="30" height="55" rx="3" fill="#ffffff" />
+    <rect x="500" y="25" width="35" height="75" rx="3" fill="#ffffff" />
+  </g>
+
+  <!-- Big Hero Book Stack & Reader Illustration -->
+  <g filter="url(#shadow)" transform="translate(100, 200)">
+    <!-- Base Large Book (Green) -->
+    <rect x="40" y="360" width="420" height="55" rx="8" fill="#10b981" />
+    <rect x="40" y="360" width="40" height="55" rx="4" fill="#059669" />
+    <rect x="80" y="375" width="370" height="25" fill="#f8fafc" opacity="0.9" />
+    <line x1="85" y1="382" x2="440" y2="382" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="85" y1="392" x2="440" y2="392" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Second Book (Amber) -->
+    <rect x="70" y="300" width="360" height="50" rx="8" fill="#f59e0b" />
+    <rect x="70" y="300" width="35" height="50" rx="4" fill="#d97706" />
+    <rect x="105" y="315" width="315" height="20" fill="#f8fafc" opacity="0.9" />
+
+    <!-- Third Book (Purple) -->
+    <rect x="100" y="245" width="300" height="48" rx="8" fill="#8b5cf6" />
+    <rect x="100" y="245" width="30" height="48" rx="4" fill="#7c3aed" />
+    <rect x="130" y="258" width="260" height="22" fill="#f8fafc" opacity="0.9" />
+
+    <!-- Top Open Book (Sky Blue) -->
+    <path d="M120 180 C180 160, 240 170, 250 200 L250 240 C240 210, 180 200, 120 220 Z" fill="#38bdf8" />
+    <path d="M380 180 C320 160, 260 170, 250 200 L250 240 C260 210, 320 200, 380 220 Z" fill="#0ea5e9" />
+    <path d="M125 185 C180 168, 235 178, 245 205 L245 235 C235 208, 180 198, 125 215 Z" fill="#ffffff" />
+    <path d="M375 185 C320 168, 265 178, 255 205 L255 235 C265 208, 320 198, 375 215 Z" fill="#ffffff" />
+
+    <!-- Sitting Character Reading -->
+    <!-- Body -->
+    <path d="M235 120 C235 105, 265 105, 265 120 L275 185 C275 190, 225 190, 225 185 Z" fill="#e0e7ff" />
+    <!-- Yellow Sweater -->
+    <path d="M230 115 C240 100, 260 100, 270 115 L280 165 L220 165 Z" fill="#fbbf24" />
+    <!-- Head -->
+    <circle cx="250" cy="85" r="22" fill="#fbcfe8" />
+    <!-- Hair -->
+    <path d="M230 85 C230 65, 270 65, 270 85 C270 75, 250 60, 230 85 Z" fill="#475569" />
+    <!-- Legs dangling on book -->
+    <path d="M230 165 L215 225 L240 225 L245 165 Z" fill="#1e3a8a" />
+    <path d="M260 165 L275 220 L295 220 L270 165 Z" fill="#1e3a8a" />
+    <!-- Shoes -->
+    <rect x="210" y="223" width="32" height="12" rx="6" fill="#f8fafc" />
+    <rect x="272" y="218" width="28" height="12" rx="6" fill="#f8fafc" />
+
+    <!-- Character holding open small book -->
+    <path d="M235 135 L265 135 L270 155 L230 155 Z" fill="#f43f5e" />
+  </g>
+
+  <!-- Stars & Floating Magic Knowledge Particles -->
+  <g fill="#fef08a">
+    <circle cx="220" cy="180" r="6" opacity="0.8"/>
+    <polygon points="460,260 464,272 476,276 464,280 460,292 456,280 444,276 456,272" />
+    <polygon points="180,480 183,490 193,493 183,496 180,506 177,496 167,493 177,490" />
+    <polygon points="520,440 523,450 533,453 523,456 520,466 517,456 507,453 517,450" />
+  </g>
+
+  <!-- Catchy Caption -->
+  <text x="350" y="690" font-family="'Roboto', sans-serif" font-size="28" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="1">
+    Discover Your Next Great Read
+  </text>
+  <text x="350" y="725" font-family="'Roboto', sans-serif" font-size="16" fill="#93c5fd" text-anchor="middle">
+    Thousands of books, personalized shelves, and reviews
+  </text>
+</svg>

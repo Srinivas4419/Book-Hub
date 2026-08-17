@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad404" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#0369a1" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(50, 40)">
+    <!-- 4 0 4 Numbers -->
+    <text x="50" y="160" font-family="'Roboto', sans-serif" font-size="120" font-weight="900" fill="url(#grad404)">4</text>
+    
+    <!-- Center 0 transformed into a floating globe/book portal -->
+    <g transform="translate(180, 50)">
+      <circle cx="50" cy="80" r="48" fill="#f8fafc" stroke="#0284c7" stroke-width="12" />
+      <ellipse cx="50" cy="80" rx="20" ry="46" fill="none" stroke="#38bdf8" stroke-width="4" />
+      <line x1="4" y1="80" x2="96" y2="80" stroke="#38bdf8" stroke-width="4" />
+      <!-- Small floating book -->
+      <rect x="35" y="65" width="30" height="24" rx="4" fill="#f59e0b" />
+    </g>
+
+    <text x="310" y="160" font-family="'Roboto', sans-serif" font-size="120" font-weight="900" fill="url(#grad404)">4</text>
+
+    <!-- Floor shadow / pedestal -->
+    <ellipse cx="200" cy="230" rx="180" ry="14" fill="#e2e8f0" opacity="0.7" />
+
+    <!-- Wandering reader with map / telescope -->
+    <circle cx="200" cy="180" r="14" fill="#fbcfe8" />
+    <path d="M190 194 L210 194 L215 224 L185 224 Z" fill="#fbbf24" />
+    <path d="M190 224 L188 245 L196 245 L198 224" fill="#1e3a8a" />
+    <path d="M202 224 L204 245 L212 245 L210 224" fill="#1e3a8a" />
+  </g>
+</svg>

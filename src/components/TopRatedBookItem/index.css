@@ -1,0 +1,68 @@
+.top-rated-book-card {
+  padding: 0 10px;
+  outline: none;
+}
+
+.top-rated-book-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  background-color: transparent;
+  transition: transform 0.2s ease;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.top-rated-book-link:hover {
+  transform: translateY(-4px);
+}
+
+.top-rated-book-cover {
+  width: 130px;
+  height: 180px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  margin-bottom: 12px;
+}
+
+.top-rated-book-title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 4px;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.top-rated-book-author {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #64748b;
+  max-width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  .top-rated-book-cover {
+    width: 150px;
+    height: 210px;
+  }
+
+  .top-rated-book-title {
+    font-size: 16px;
+    max-width: 170px;
+  }
+
+  .top-rated-book-author {
+    font-size: 14px;
+    max-width: 170px;
+  }
+}

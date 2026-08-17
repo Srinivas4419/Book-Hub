@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="errorGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(50, 20)">
+    <!-- Base Desk -->
+    <rect x="20" y="270" width="360" height="12" rx="6" fill="#e2e8f0" />
+    
+    <!-- Computer Monitor with Warning Sign -->
+    <rect x="100" y="50" width="200" height="140" rx="10" fill="#334155" />
+    <rect x="110" y="60" width="180" height="120" rx="6" fill="#f8fafc" />
+    <!-- Stand -->
+    <rect x="185" y="190" width="30" height="45" fill="#64748b" />
+    <rect x="150" y="235" width="100" height="10" rx="5" fill="#475569" />
+
+    <!-- Disconnect / Alert Icon on Screen -->
+    <polygon points="200,85 240,150 160,150" fill="url(#errorGrad)" />
+    <circle cx="200" cy="140" r="3" fill="#ffffff" />
+    <rect x="198" y="105" width="4" height="24" rx="2" fill="#ffffff" />
+
+    <!-- Tangled Cord -->
+    <path d="M200 245 C200 260, 280 250, 310 270" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round" />
+    <!-- Broken Plug -->
+    <rect x="310" y="265" width="16" height="10" rx="3" fill="#64748b" />
+    <line x1="326" y1="268" x2="334" y2="268" stroke="#cbd5e1" stroke-width="2" />
+    <line x1="326" y1="272" x2="334" y2="272" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Sad Book Stack next to computer -->
+    <rect x="40" y="235" width="50" height="12" rx="3" fill="#38bdf8" />
+    <rect x="45" y="220" width="45" height="12" rx="3" fill="#fbbf24" />
+    <rect x="42" y="205" width="48" height="12" rx="3" fill="#f43f5e" />
+  </g>
+</svg>

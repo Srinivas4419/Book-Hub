@@ -1,0 +1,46 @@
+.no-books-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 400px;
+}
+
+.no-books-image {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin-bottom: 24px;
+}
+
+.no-books-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 12px;
+  max-width: 480px;
+}
+
+.no-books-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  max-width: 400px;
+}
+
+@media (min-width: 768px) {
+  .no-books-image {
+    max-width: 380px;
+  }
+
+  .no-books-heading {
+    font-size: 24px;
+  }
+
+  .no-books-description {
+    font-size: 16px;
+  }
+}

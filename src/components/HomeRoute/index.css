@@ -1,0 +1,144 @@
+.home-route-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f8fafc;
+}
+
+.home-main-content {
+  flex-grow: 1;
+  padding: 24px 16px;
+}
+
+.home-responsive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.home-hero-section {
+  margin-bottom: 32px;
+  max-width: 720px;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.3;
+  margin-bottom: 16px;
+}
+
+.home-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.find-books-btn {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.find-books-btn:hover {
+  background-color: #0369a1;
+}
+
+.home-find-books-desktop-link {
+  display: none;
+}
+
+.home-find-books-mobile-link {
+  display: inline-block;
+}
+
+.top-rated-books-section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 24px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.top-rated-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 0 8px;
+}
+
+.top-rated-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.top-rated-slider-container {
+  min-height: 280px;
+  position: relative;
+}
+
+.slider-wrapper {
+  padding: 0 10px;
+}
+
+/* Slick Custom Arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #64748b;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.slick-prev {
+  left: -15px;
+  z-index: 1;
+}
+
+.slick-next {
+  right: -15px;
+  z-index: 1;
+}
+
+@media (min-width: 768px) {
+  .home-main-content {
+    padding: 40px 32px;
+  }
+
+  .home-heading {
+    font-size: 44px;
+    margin-bottom: 20px;
+  }
+
+  .home-description {
+    font-size: 18px;
+  }
+
+  .home-find-books-mobile-link {
+    display: none;
+  }
+
+  .home-find-books-desktop-link {
+    display: inline-block;
+  }
+
+  .top-rated-books-section {
+    padding: 32px 24px;
+  }
+
+  .top-rated-heading {
+    font-size: 24px;
+  }
+}
